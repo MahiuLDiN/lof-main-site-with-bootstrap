@@ -47,6 +47,41 @@ textarea:focus {
 .main-color {
   color: #d8aaf8;
 }
+
+/* ********** Social css Start ******* */
+.social-div {
+  position: fixed;
+  right: 28px;
+  top: 30%;
+  z-index: 999;
+  background: linear-gradient(
+    113.32deg,
+    rgba(248, 237, 255, 0.15) 0%,
+    rgba(248, 237, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+.social-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: linear-gradient(180deg, #f8edff 0%, rgba(248, 237, 255, 0) 81.38%)
+    border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  /* padding: 30px; */
+}
+.social-div ul {
+  list-style: none;
+}
+/* ********** Social css End ******* */
 /* ********** Navbar css Start ******* */
 .navbar-dark .navbar-nav .nav-link {
   color: white;
@@ -73,34 +108,7 @@ textarea:focus {
   background-color: #d8aaf8;
 }
 /* ********** Navbar css End ******* */
-/* ********** Social css Start ******* */
-.social-div {
-  position: fixed;
-  right: 28px;
-  top: 30%;
 
-  background: linear-gradient(
-    113.32deg,
-    rgba(248, 237, 255, 0.15) 0%,
-    rgba(248, 237, 255, 0.02) 100%
-  );
-  backdrop-filter: blur(10px);
-  /* Note: backdrop-filter has minimal browser support */
-  width: 50px;
-  padding: 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  border-color: linear-gradient(
-    180deg,
-    #f8edff 0%,
-    rgba(248, 237, 255, 0) 81.38%
-  );
-}
-.social-div ul {
-  list-style: none;
-}
-/* ********** Social css End ******* */
 /* ********** Hero Section  css start ******* */
 .row-div {
   display: grid;
@@ -125,10 +133,10 @@ textarea:focus {
   line-height: 80px;
 }
 .sub-heading {
-  font-size: 19px;
+  font-size: 22px;
 }
 .hero-p {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 26px;
 }
