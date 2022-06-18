@@ -47,32 +47,7 @@ textarea:focus {
 .main-color {
   color: #d8aaf8;
 }
-/* ********** Navbar css Start ******* */
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-  font-family: "Hind Vadodara", sans-serif;
-  font-weight: 600;
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #d8aaf8;
-}
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #d8aaf8;
-}
-.nav-btn {
-  font-family: allround-Font !important;
-  color: white;
-  border-color: #d8aaf8;
-  border-radius: 8px;
-  border-width: 2px;
-  padding: 6px 22px;
-}
-.nav-btn:hover {
-  color: white;
-  border-color: #d8aaf8;
-  background-color: #d8aaf8;
-}
-/* ********** Navbar css End ******* */
+
 /* ********** Social css Start ******* */
 .social-div {
   position: fixed;
@@ -107,6 +82,33 @@ textarea:focus {
   list-style: none;
 }
 /* ********** Social css End ******* */
+/* ********** Navbar css Start ******* */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #d8aaf8;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #d8aaf8;
+}
+.nav-btn {
+  font-family: allround-Font !important;
+  color: white;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 22px;
+}
+.nav-btn:hover {
+  color: white;
+  border-color: #d8aaf8;
+  background-color: #d8aaf8;
+}
+/* ********** Navbar css End ******* */
+
 /* ********** Hero Section  css start ******* */
 .row-div {
   display: grid;
