@@ -47,6 +47,19 @@ textarea:focus {
 .main-color {
   color: #d8aaf8;
 }
+button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.btn-outline-success:focus {
+  box-shadow: none !important;
+}
+.btn-outline-primary:focus {
+  box-shadow: none !important;
+}
+.btn-outline-danger:focus {
+  box-shadow: none !important;
+}
 
 /* ********** Social css Start ******* */
 .social-div {
