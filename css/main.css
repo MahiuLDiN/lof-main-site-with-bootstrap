@@ -223,7 +223,7 @@ button:focus {
   border-width: 2px;
   padding: 6px 22px;
 }
-.hero-btn::hover {
+.hero-btn:hover {
   color: white;
   border-color: #d8aaf8;
   background-color: #d8aaf8;
