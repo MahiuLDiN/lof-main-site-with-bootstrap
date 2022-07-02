@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap");
+@import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css";
+@font-face {
+  font-family: allround-Font;
+  src: url(../assets/fonts/All-Round-Gothic-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Hind Vadodara", sans-serif;
+  color: white;
+  background-color: #000000;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: allround-Font !important;
+}
+
+button:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+input:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.main-color {
+  color: #d8aaf8;
+}
+
+button:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-outline-success:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-outline-primary:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-outline-danger:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #d8aaf8;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #d8aaf8;
+}
+
+.nav-btn {
+  font-family: allround-Font !important;
+  color: white;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 22px;
+}
+
+.nav-btn:hover {
+  color: white;
+  border-color: #d8aaf8;
+  background-color: #d8aaf8;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.9rem;
+    padding-left: 1.9rem;
+  }
+}
+.social-div {
+  position: fixed;
+  right: 28px;
+  top: 30%;
+  z-index: 999;
+  background: linear-gradient(113.32deg, rgba(248, 237, 255, 0.15) 0%, rgba(248, 237, 255, 0.02) 100%);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.social-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8edff), color-stop(81.38%, rgba(248, 237, 255, 0))) border-box;
+  background: linear-gradient(180deg, #f8edff 0%, rgba(248, 237, 255, 0) 81.38%) border-box;
+  -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) padding-box, -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  /* padding: 30px; */
+}
+
+.social-div ul {
+  list-style: none;
+}
+
+.row-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.row-div > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.row-div > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.row-div > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.row-div > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.content-div {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 2;
+  margin-top: -3rem !important;
+}
+
+.modal-div {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  -ms-grid-column-span: 3;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 1;
+  padding-top: 3rem;
+}
+
+.main-heading {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.sub-heading {
+  font-size: 22px;
+}
+
+.hero-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.hero-btn {
+  font-family: allround-Font !important;
+  color: white;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 22px;
+}
+.hero-btn::hover {
+  color: white;
+  border-color: #d8aaf8;
+  background-color: #d8aaf8;
+}
+
+.fotter-div {
+  background-color: #121016;
+}
+
+.footer-list li {
+  display: inline;
+  list-style: none;
+}
+
+.footer-list .footer-li .footer-links {
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  padding: 8px;
+  font-weight: 500;
+}
+
+.copy-right {
+  font-weight: 500;
+}
+
+/* Media querys starts  */
+@media only screen and (max-width: 600px) {
+  .footer-list .footer-li .footer-links {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .copy-right {
+    font-size: 10px;
+  }
+}
+/* Media querys end  */
+.screen {
+  width: 273px;
+  margin: 50px -3px 0px 1px;
+  height: 475px;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: rotate(-37.73deg) scaleX(0.8312) scaleY(0.801) skewX(10.92deg) skewY(1deg) translate(90px, 120px);
+          transform: rotate(-37.73deg) scaleX(0.8312) scaleY(0.801) skewX(10.92deg) skewY(1deg) translate(90px, 120px);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .screen {
+    width: 273px;
+    margin: 50px -3px 0px 1px;
+    height: 475px;
+    -webkit-transform: rotate(-37.73deg) scaleX(0.8312) scaleY(0.801) skewX(10.92deg) skewY(1deg) translate(205px, 163px);
+            transform: rotate(-37.73deg) scaleX(0.8312) scaleY(0.801) skewX(10.92deg) skewY(1deg) translate(205px, 163px);
+  }
+}
+.slider {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.4s linear;
+  transition: opacity 0.4s linear;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slick-list,
+.slick-track,
+.slide {
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s 0.4s linear, -webkit-transform 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.4s 0.4s linear, -webkit-transform 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s 0.4s linear;
+  transition: transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s 0.4s linear, -webkit-transform 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+  background-size: cover;
+  background-position: center;
+}
+
+.slick-current {
+  opacity: 1;
+  -webkit-transform: scale(1) translateZ(0);
+          transform: scale(1) translateZ(0);
+  -webkit-transition: opacity 0.4s linear, -webkit-transform 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.4s linear, -webkit-transform 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s linear;
+  transition: transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.4s linear, -webkit-transform 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.set-mockup {
+  position: relative;
+  left: -6%;
+}
+
+.mockup {
+  top: 50%;
+  left: 50%;
+  width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .mockup {
+    width: 750px;
+  }
+}
+.mockup img {
+  width: 100%;
+}
+
+.slider-img {
+  background-image: url(../assets/smoke.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120% 110%;
+  overflow: visible;
+}
+
+.pl-modal-div {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  -ms-grid-column-span: 3;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 1;
+  padding-left: 50px;
+}
+
+.icon-text {
+  margin: 0px !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Hind Vadodara", sans-serif !important;
+  font-weight: 900;
+}
+
+.pl-p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.pl-heading {
+  font-size: 55px;
+}
