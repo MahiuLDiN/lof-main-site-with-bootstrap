@@ -1,49 +1,42 @@
-.form-control {
-  display: block;
-  width: 100%;
-  padding: 0.375rem 0.75rem;
-  font-family: "Hind Vadodara", sans-serif !important;
-  font-size: 1rem;
+.contct-txt h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+.contct-txt p {
+  color: #ffffff;
   font-weight: 400;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #121016;
-  background-clip: padding-box;
-  border: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  box-shadow: 0px 0px 20px #000000;
-  border-radius: 8px;
-}
-.form-control:focus {
-  color: rgba(255, 255, 255, 0.5);
-  background-color: #121016;
-}
-.submit-btn {
-  font-family: allround-Font !important;
-  color: white;
-  border-color: #d8aaf8;
-  border-radius: 8px;
-  border-width: 2px;
-  padding: 6px 22px;
-}
-.submit-btn:hover {
-  color: white;
-  border-color: #d8aaf8;
-  background-color: #d8aaf8;
-}
-.contact-haeding {
-  font-size: 55px;
-  line-height: 75px;
-}
-.contact-sh {
-  font-size: 19px;
-}
-.contact-p {
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 17px;
   line-height: 26px;
+}
+.contct-bg {
+  background-image: url(../assets/contct.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.field {
+  width: 400px;
+  height: 40px;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+.field:focus {
+  border: none !important;
+  outline: none !important;
+}
+.text-area {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+.text-area:focus {
+  border: none !important;
+  outline: none !important;
 }

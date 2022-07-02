@@ -61,11 +61,24 @@ button:focus {
 .btn-outline-danger:focus {
   box-shadow: none !important;
 }
+.h-full {
+  height: 100vh;
+}
 // import section scss Start
 
 @import "./navbar";
 @import "./social";
 @import "./hero";
+@import "./whatlof";
+@import "./lofplatform";
+@import "./tokenomics";
+@import "./partners";
+@import "./dashboard";
+@import "./roadmap";
+@import "./whitepaper";
+@import "./teamvision";
+@import "./merchstore";
+@import "./contact";
 @import "./footer";
 
 // import section scss End
