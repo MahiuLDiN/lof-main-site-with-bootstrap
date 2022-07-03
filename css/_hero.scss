@@ -19,20 +19,22 @@
   padding-top: 3rem;
 }
 .main-heading {
-  font-size: 80px;
+  font-size: 93px;
   line-height: 80px;
 }
 .sub-heading {
-  font-size: 22px;
+  font-size: 23px;
+  font-weight: 600;
 }
 .hero-p {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   line-height: 26px;
 }
 .hero-btn {
   font-family: allround-Font !important;
   color: white;
+  font-size: 14px;
   border-color: #d8aaf8;
   border-radius: 8px;
   border-width: 2px;
@@ -41,5 +43,11 @@
     color: white;
     border-color: #d8aaf8;
     background-color: #d8aaf8;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .hero-mar {
+    max-width: 1500px !important;
   }
 }

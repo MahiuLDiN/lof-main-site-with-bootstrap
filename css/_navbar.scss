@@ -9,6 +9,9 @@
 .navbar-dark .navbar-nav .nav-link.active {
   color: #d8aaf8;
 }
+.nav-link {
+  padding: 0.9rem 1.2rem;
+}
 .nav-btn {
   font-family: allround-Font !important;
   color: white;
@@ -24,7 +27,7 @@
 }
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.9rem;
-    padding-left: 1.9rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }

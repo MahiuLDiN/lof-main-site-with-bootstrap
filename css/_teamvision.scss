@@ -1,19 +1,23 @@
 .team-txt h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 65px;
+  font-size: 55px;
   color: #ffffff;
 }
 .team-txt p {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 17px;
   line-height: 30px;
   color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
 }
 .lof-bg {
   background-image: url(../assets/team.png);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 170px;
 }
