@@ -99,6 +99,10 @@ button:focus {
   color: #d8aaf8;
 }
 
+.nav-link {
+  padding: 0.9rem 1.2rem;
+}
+
 .nav-btn {
   font-family: allround-Font !important;
   color: white;
@@ -116,13 +120,13 @@ button:focus {
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.9rem;
-    padding-left: 1.9rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 .social-div {
   position: fixed;
-  right: 28px;
+  right: 50px;
   top: 30%;
   z-index: 999;
   background: linear-gradient(113.32deg, rgba(248, 237, 255, 0.15) 0%, rgba(248, 237, 255, 0.02) 100%);
@@ -205,23 +209,25 @@ button:focus {
 }
 
 .main-heading {
-  font-size: 80px;
+  font-size: 93px;
   line-height: 80px;
 }
 
 .sub-heading {
-  font-size: 22px;
+  font-size: 23px;
+  font-weight: 600;
 }
 
 .hero-p {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   line-height: 26px;
 }
 
 .hero-btn {
   font-family: allround-Font !important;
   color: white;
+  font-size: 14px;
   border-color: #d8aaf8;
   border-radius: 8px;
   border-width: 2px;
@@ -233,36 +239,91 @@ button:focus {
   background-color: #d8aaf8;
 }
 
+@media only screen and (min-width: 1400px) {
+  .hero-mar {
+    max-width: 1500px !important;
+  }
+}
 .why-txt {
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 .why-txt h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "AllRoundGothicW01-Bold";
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .why-txt p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Hind Vadodara";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  padding-right: 70px;
+  font-size: 16px;
+  line-height: 30px;
+  padding-right: 145px;
 }
 
-.dashbord-txt {
-  padding-top: 2rem;
+.set-mr {
+  margin-left: -50px;
+  margin-top: 270px;
+}
+
+.slider-div h1 {
+  font-family: "Hind Vadodara" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+.slider-div p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  padding-right: 170px;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-right: 150px !important;
+}
+
+@media only screen and (min-width: 1400px) {
+  .pl-mar {
+    max-width: 1700px !important;
+    margin-left: 35px;
+  }
+}
+.content-div {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 2;
+  margin-top: -3rem !important;
+}
+
+.modal-pl {
+  margin-left: 160px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 1;
+  padding-top: 3rem;
 }
 
 .dashbord-txt h1 {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .dashbord-txt p {
@@ -270,9 +331,39 @@ button:focus {
   font-family: "Hind Vadodara";
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 30px;
   padding-right: 30px;
+}
+
+.dash-div {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 2;
+  margin-top: -12rem !important;
+}
+.dash-div h1 {
+  font-size: 50px;
+}
+.dash-div p {
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.modal-dash {
+  margin-left: 200px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 1;
+  padding-top: 3rem;
 }
 
 :root {
@@ -533,23 +624,38 @@ button:focus {
   margin: -16px 0 -16px -20px;
 }
 
-.whitepaper img {
-  padding-left: 12rem;
+.wh-heading {
+  font-size: 70px;
+}
+
+.sub-whi {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.white-p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: -10px;
+  margin-bottom: 40px;
 }
 
 .team-txt h1 {
   font-style: normal;
   font-weight: 700;
-  font-size: 65px;
+  font-size: 55px;
   color: #ffffff;
 }
 
 .team-txt p {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 17px;
   line-height: 30px;
   color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
 }
 
 .lof-bg {
@@ -557,10 +663,24 @@ button:focus {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 170px;
 }
 
 .store img {
   padding-left: 0;
+}
+
+.mr-heading {
+  font-size: 65px;
+}
+
+.mr-p {
+  font-size: 14;
+  line-height: 28px;
+}
+
+.sub-mr {
+  font-size: 18px;
 }
 
 .contct-txt h1 {
@@ -568,13 +688,14 @@ button:focus {
   font-weight: 700;
   font-size: 60px;
   color: #ffffff;
+  margin-top: 250px;
 }
 
 .contct-txt p {
   color: #ffffff;
   font-weight: 400;
   font-size: 17px;
-  line-height: 26px;
+  line-height: 30px;
 }
 
 .contct-bg {
@@ -585,12 +706,12 @@ button:focus {
 }
 
 .field {
-  width: 400px;
-  height: 40px;
+  width: 497px;
+  height: 52px;
   background-color: #0b0b0b;
   color: #ffffff;
   border: none !important;
-  padding: 5px;
+  padding: 12px;
   border-radius: 5px;
 }
 
@@ -610,6 +731,21 @@ button:focus {
 .text-area:focus {
   border: none !important;
   outline: none !important;
+}
+
+.contact-btn {
+  font-family: allround-Font !important;
+  color: white;
+  font-size: 14px;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 42px;
+}
+.contact-btn:hover {
+  color: white;
+  border-color: #d8aaf8;
+  background-color: #d8aaf8;
 }
 
 .fotter-div {

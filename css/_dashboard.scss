@@ -1,18 +1,41 @@
 .dashbord-txt {
-  padding-top: 2rem;
+  // padding-top: 3rem;
 }
 .dashbord-txt h1 {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
 }
 .dashbord-txt p {
   color: #ffffff;
   font-family: "Hind Vadodara";
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 30px;
   padding-right: 30px;
+}
+
+.dash-div {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  z-index: 2;
+  margin-top: -12rem !important;
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    line-height: 28px;
+    font-size: 14px;
+  }
+}
+.modal-dash {
+  margin-left: 200px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 1;
+  padding-top: 3rem;
 }

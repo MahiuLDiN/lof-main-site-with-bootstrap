@@ -3,12 +3,13 @@
   font-weight: 700;
   font-size: 60px;
   color: #ffffff;
+  margin-top: 250px;
 }
 .contct-txt p {
   color: #ffffff;
   font-weight: 400;
   font-size: 17px;
-  line-height: 26px;
+  line-height: 30px;
 }
 .contct-bg {
   background-image: url(../assets/contct.png);
@@ -17,12 +18,12 @@
   background-repeat: no-repeat;
 }
 .field {
-  width: 400px;
-  height: 40px;
+  width: 497px;
+  height: 52px;
   background-color: #0b0b0b;
   color: #ffffff;
   border: none !important;
-  padding: 5px;
+  padding: 12px;
   border-radius: 5px;
 }
 .field:focus {
@@ -39,4 +40,19 @@
 .text-area:focus {
   border: none !important;
   outline: none !important;
+}
+
+.contact-btn {
+  font-family: allround-Font !important;
+  color: white;
+  font-size: 14px;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 42px;
+  &:hover {
+    color: white;
+    border-color: #d8aaf8;
+    background-color: #d8aaf8;
+  }
 }
